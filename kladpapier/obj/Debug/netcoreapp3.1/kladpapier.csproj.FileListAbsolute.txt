@@ -11,3 +11,16 @@ C:\School\Leerjaar 1\Software\kladpapier\kladpapier\obj\Debug\netcoreapp3.1\klad
 C:\School\Leerjaar 1\Software\kladpapier\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.dll
 C:\School\Leerjaar 1\Software\kladpapier\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.pdb
 C:\School\Leerjaar 1\Software\kladpapier\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.genruntimeconfig.cache
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.exe
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.deps.json
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.runtimeconfig.json
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.runtimeconfig.dev.json
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.dll
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\bin\Debug\netcoreapp3.1\kladpapier.pdb
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.csprojAssemblyReference.cache
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.AssemblyInfoInputs.cache
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.AssemblyInfo.cs
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.csproj.CoreCompileInputs.cache
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.dll
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.pdb
+C:\School\Leerjaar 1\Software\Algoritme quiz\Algoritmiek\kladpapier\obj\Debug\netcoreapp3.1\kladpapier.genruntimeconfig.cache

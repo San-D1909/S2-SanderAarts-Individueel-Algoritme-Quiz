@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\kladpapier\\kladpapier.csproj": {}
+    "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\Algoritmiek\\kladpapier\\kladpapier.csproj": {}
   },
   "projects": {
-    "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\kladpapier\\kladpapier.csproj": {
+    "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\Algoritmiek\\kladpapier\\kladpapier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\kladpapier\\kladpapier.csproj",
+        "projectUniqueName": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\Algoritmiek\\kladpapier\\kladpapier.csproj",
         "projectName": "kladpapier",
-        "projectPath": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\kladpapier\\kladpapier.csproj",
+        "projectPath": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\Algoritmiek\\kladpapier\\kladpapier.csproj",
         "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\kladpapier\\obj\\",
+        "outputPath": "C:\\School\\Leerjaar 1\\Software\\Algoritme quiz\\Algoritmiek\\kladpapier\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",

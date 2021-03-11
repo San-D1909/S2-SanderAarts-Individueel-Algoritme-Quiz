@@ -2,36 +2,39 @@
 using System.Collections.Generic;
 using System.Numerics;
 
-
+//Open een opdracht en uncomment deze om de code te runnen. Vergeet deze hierna niet te commenten wanneer u een andere opdracht wilt uitvoeren
 namespace Teamwork
 {
     public class Program
     {
-        /*        public static void Main(string[] args)
-        OPDRACHT ALGORITMIEK 1
+        #region Opdracht 1
+/*        public static void Main(string[] args)
+        //OPDRACHT ALGORITMIEK 1
+        {
+            int total = 0;
+            int small = 3;
+            int big = 5;
+            int fivexprint = 0;
+            int threexprint = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                if (threexprint + 3 < 1000)
                 {
-                    int total = 0;
-                    int small = 3;
-                    int big = 5;
-                    int fivexprint = 0;
-                    int threexprint = 0;
-                    for (int i = 0; i < 1000;i++)
-                    {
-                        if(threexprint+3 < 1000)
-                        { 
-                            threexprint = small * i;
-                            total = total + (i * small);
-                            Console.WriteLine(threexprint);
-                        }
-                        if (fivexprint+ 5 < 1000)
-                        { 
-                            fivexprint = big * i;
-                            total = total + (i * big);
-                            Console.WriteLine(fivexprint);
-                        }
-                    }
-                    Console.WriteLine(total);
-                }*/
+                    threexprint = small * i;
+                    total = total + (i * small);
+                    Console.WriteLine(threexprint);
+                }
+                if (fivexprint + 5 < 1000)
+                {
+                    fivexprint = big * i;
+                    total = total + (i * big);
+                    Console.WriteLine(fivexprint);
+                }
+            }
+            Console.WriteLine(total);
+        }*/
+        #endregion
+        #region Opdracht 2
         /*        public static void Main(string[] args)
                 //OPDRACHT 2
                 {
@@ -53,6 +56,8 @@ namespace Teamwork
                     }
                     Console.WriteLine("Totaal = "+ total);
                 }*/
+        #endregion
+        #region Opdracht 3
         /*        public static void Main(string[] args)
                 //OPDRACHT 3
                 {
@@ -86,8 +91,10 @@ namespace Teamwork
                     return false;
                 }
             */
+        #endregion
+        #region Opdracht 4
         /*        public static void Main(string[] args)
-         *       //Opdracht 4
+                //Opdracht 4
                 {
                     int highest = 0;
                     string highestString = "";
@@ -108,7 +115,7 @@ namespace Teamwork
                                     if (result > highest)
                                     {
                                         highest = result;
-                                        highestString = Convert.ToString( x + " * " + i + " = " + resultString);
+                                        highestString = Convert.ToString(x + " * " + i + " = " + resultString);
                                     }
                                 }
 
@@ -124,6 +131,8 @@ namespace Teamwork
                     Array.Reverse(charArray);
                     return new string(charArray);
                 }*/
+        #endregion
+        #region Opdracht 5
         /*        public static void Main(string[] args)
          *        //OPDRACHT5
                 {
@@ -166,6 +175,8 @@ namespace Teamwork
                     }
                     return false;
                 }*/
+        #endregion
+        #region Opdracht 6
         /*        public static void Main(string[] args)
                 //OPDRACHT6
                 {
@@ -188,6 +199,8 @@ namespace Teamwork
                     double uitkomst = Math.Pow(getal, 2);
                     return (uitkomst);
                 }*/
+        #endregion
+        #region Opdracht 7
         /*        public static void Main(string[] args)
                 //OPDRACHT7
                 {
@@ -232,6 +245,8 @@ namespace Teamwork
                     }
                     return false;
                 }*/
+        #endregion
+        #region Opdracht 8
         /*        public static void Main(string[] args)
                 //OPDRACHT8
                 {
@@ -262,7 +277,8 @@ namespace Teamwork
                     Console.WriteLine("biggest = "+biggestNumber+ " string won = "+ stringWon);
                 }*/
 
-
+        #endregion
+        #region Opdracht 9
         /*        public static void Main(string[] args)
                 //OPDRACHT9
                 {
@@ -291,55 +307,56 @@ namespace Teamwork
                         }
                     }
                 }*/
+        #endregion
+        #region Opdracht 10
+        /*        public static void Main(string[] args)
+                //OPDRACHT10
 
-        public static void Main(string[] args)
-        //OPDRACHT10
-
-        {
-            int total = 0;
-            for (decimal i = 1; i < 2000000; i++)
-            {
-                int amount = 0;
-                for (decimal x = 1; x <= i; x++)
                 {
-                    if (x != 0 && x <= i)
+                    int total = 0;
+                    for (decimal i = 1; i < 2000000; i++)
                     {
-                        decimal check = i / x;
-                        if (CheckIfDecimal(check) == true)
+                        int amount = 0;
+                        for (decimal x = 1; x <= i; x++)
                         {
-                            amount++;
-                            if (amount > 2)
+                            if (x != 0 && x <= i)
                             {
-                                break;
+                                decimal check = i / x;
+                                if (CheckIfDecimal(check) == true)
+                                {
+                                    amount++;
+                                    if (amount > 2)
+                                    {
+                                        break;
+                                    }
+                                }
                             }
+                        }
+                        if (amount == 2 && i < 2000000)
+                        {
+
+                            total = total + Convert.ToInt32(i);
+                            Console.WriteLine("Prime number = " + i + " total = " + total);
+                        }
+                        else if (amount == 2)
+                        {
+                            Console.WriteLine("Last prime number = " + i + " total = " + total);
                         }
                     }
                 }
-                if (amount == 2 && i < 2000000)
+                public static bool CheckIfDecimal(decimal number)
                 {
-
-                    total = total + Convert.ToInt32(i);
-                    Console.WriteLine("Prime number = " + i + " total = " + total);
-                }
-                else if (amount == 2)
-                {
-                    Console.WriteLine("Last prime number = " + i + " total = " + total);
-                }
-            }
-        }
-        public static bool CheckIfDecimal(decimal number)
-        {
-            if (number % 1 > 0)
-            {
-                return false;
-            }
-            else if (number % 1 == 0)
-            {
-                return true;
-            }
-            return false;
-        }
-
+                    if (number % 1 > 0)
+                    {
+                        return false;
+                    }
+                    else if (number % 1 == 0)
+                    {
+                        return true;
+                    }
+                    return false;
+                }*/
+        #endregion
     }
 }
 
